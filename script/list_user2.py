@@ -14,6 +14,7 @@ def get_network(ip, netmask):
 
 def str_to_ip(ip):
     a, b, c, d = ip.split('.')
+    d = 0
     return int(a), int(b), int(c), int(d)
 
 def ip_to_str(ip):
