@@ -1,0 +1,7 @@
+Doing NBT name scan for addresses from 192.168.0.0/24
+
+IP address       NetBIOS Name     Server    User             MAC address      
+------------------------------------------------------------------------------
+192.168.0.17     MACBOOKPRO-12F2            <unknown>        00:26:bb:15:68:7b
+192.168.0.6      CANGELO-DESK     <server>  <unknown>        94:10:3e:ea:81:76
+192.168.0.254    FREEBOX          <server>  FREEBOX          00:00:00:00:00:00
