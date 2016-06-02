@@ -13,16 +13,16 @@ import os
 # ----- FONCTIONS ----- #
 
 def NewFile():
-    print ("New File!")
     main.set("")
 def List_user():
+	os.system('rm scan_list')
+	os.system('rm interfaces')
 	main.set(os.system('python3 interface_list_user2.py'))
 	file = open('scan_list', 'r')
 	main.set(file.read())
 	file.close()
-
 def About():
-    print ("This is a simple example of a menu")
+    main.set("This is a simple example of a menu")
 
 
 
@@ -44,6 +44,7 @@ filemenu.add_command(label="Exit", command=root.quit)
 listmenu = Menu(menu)
 menu.add_cascade(label="List User", menu=listmenu)
 listmenu.add_command(label="List user", command=List_user)
+
 
 
 helpmenu = Menu(menu)

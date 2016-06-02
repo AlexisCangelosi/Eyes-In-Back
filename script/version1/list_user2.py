@@ -33,7 +33,7 @@ try:
 	print("[!] Interfaces disponible :")
 	for x in nf.interfaces():
 		print("-> " + x)
-	interface = raw_input("\n[*] Choisir une interface : ")
+	interface = input("\n[*] Choisir une interface : ")
 	rec_ip = nf.ifaddresses(interface)[2][0]['addr']
 	rec_netmask = nf.ifaddresses(interface)[2][0]['netmask']
 	ip = str_to_ip(rec_ip)
@@ -45,5 +45,5 @@ except KeyboardInterrupt:
 	print ("[*] Exit ...")
 	sys.exit(1)
 
-print '\n[*] Mise en place du listing des IPs dans le reseau ' + (ip_to_str(network)) + '/' + str(mask_id)
+print ('\n[*] Mise en place du listing des IPs dans le reseau ' + (ip_to_str(network)) + '/' + str(mask_id))
 print_user((ip_to_str(network)), str(mask_id))
