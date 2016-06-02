@@ -4,6 +4,7 @@
 #IMPORTS
 from tkinter import *
 from tkinter import ttk
+from tkinter.messagebox import *
 import netifaces as nf
 import sys
 import os
@@ -22,9 +23,8 @@ def print_user(*args):
 		network = get_network(ip, netmask)
 		nw = ip_to_str(network)
 		os.system('nbtscan ' + nw + '/' + str(mask) + ' > scan_list')
-		file = open('scan_list', 'r')
-		scan.set(file.read())
-		file.close()
+		showinfo('Status', 'Scan terminé !')
+		root.destroy()
 	except ValueError:
 		pass
 
@@ -73,7 +73,7 @@ mainframe.rowconfigure(0, weight=1)
 # Déclaration des variables
 interface = StringVar()
 choix_iface = StringVar()
-scan = StringVar()
+#scan = StringVar()
 
 # Mise en place de l'interface
 
@@ -85,9 +85,9 @@ ttk.Label(mainframe, textvariable=interface).grid(column=1,row=2)
 choix_interface = ttk.Entry(mainframe, width=7, textvariable=choix_iface).grid(column=1,row=3)
 ttk.Button(mainframe, text='Search', command=print_user).grid(column=1,row=4)
 
-ttk.Label(mainframe, textvariable=scan).grid(column=1, row=5)
+#ttk.Label(mainframe, textvariable=scan).grid(column=1, row=5)
 
-ttk.Button(mainframe, text='Quit', command=root.destroy).grid(column=1,row=6)
+ttk.Button(mainframe, text='Quit', command=root.destroy).grid(column=1,row=5)
 
 #Fin de l'interface
 for child in mainframe.winfo_children(): child.grid_configure(padx=5, pady=5)
