@@ -5,6 +5,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import filedialog
+from tkinter.messagebox import *
 import sys
 import os
 
@@ -14,9 +15,8 @@ def print_user(*args):
 	try:
 		value = str(network.get())
 		os.system('nbtscan ' + value + ' > scan_list')
-		file = open('scan_list', 'r')
-		scan.set(file.read())
-		file.close()
+		showinfo('Status', 'Scan terminé !')
+		root.destroy()
 	except ValueError:
 		pass
 	
