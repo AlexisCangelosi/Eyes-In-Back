@@ -1,19 +1,7 @@
-Doing NBT name scan for addresses from 10.8.111.0/24
+Doing NBT name scan for addresses from 192.168.0.0/24
 
 IP address       NetBIOS Name     Server    User             MAC address      
 ------------------------------------------------------------------------------
-10.8.111.99      MACBOOKPRO-12F2            <unknown>        00:26:bb:15:68:7b
-10.8.111.50      ADRIEN           <server>  <unknown>        1c:b7:2c:87:70:72
-10.8.111.47      NOCIDS           <server>  <unknown>        24:fd:52:14:e8:78
-10.8.111.80      PC-MAISON        <server>  <unknown>        b4:b6:76:58:84:d7
-10.8.111.162     MATHIEU-PC       <server>  <unknown>        34:de:1a:19:e9:2a
-10.8.111.66      KLYNGON-X26      <server>  <unknown>        ce:6c:f6:b4:70:31
-10.8.111.10      PLOP-PC          <server>  <unknown>        0c:d2:92:05:02:bc
-10.8.111.6       THEGREY          <server>  <unknown>        d0:7e:35:f2:63:27
-10.8.111.34      MACBOOKAIR-FB86            <unknown>        a4:d1:8c:d8:fb:86
-10.8.111.152     MACBOOKPRO-1894            <unknown>        3c:15:c2:bc:18:94
-10.8.111.182     PC-DAMIEN                  <unknown>        4c:ed:de:f4:5e:1c
-10.8.111.207     PC               <server>  <unknown>        40:e2:30:77:b5:c7
-10.8.111.206     JULIE-PC         <server>  <unknown>        f4:b7:e2:f0:0d:f1
-10.8.111.252     RAQS-LAP         <server>  <unknown>        68:5d:43:d4:cd:7b
-10.8.111.189     DIMIBROWN        <server>  <unknown>        10:02:b5:55:63:92
+192.168.0.17     MACBOOKPRO-12F2            <unknown>        00:26:bb:15:68:7b
+192.168.0.6      CANGELO-DESK     <server>  <unknown>        94:10:3e:ea:81:76
+192.168.0.254    FREEBOX          <server>  FREEBOX          00:00:00:00:00:00
